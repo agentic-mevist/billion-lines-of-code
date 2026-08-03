@@ -1,0 +1,7 @@
+# Never let compiled artifacts near src/ -- .pyc files are binary, and `cat`ing
+# them into `wc -l` silently inflates the count with newline bytes that are not
+# lines. This exact mistake nearly corrupted our own verification.
+__pycache__/
+*.pyc
+*.pyo
+*.class

@@ -1,0 +1,11 @@
+{
+  "files": 25000,
+  "lines_per_file": 40000,
+  "total_lines": 1000000000,
+  "total_bytes": 14655393160,
+  "bytes_per_line": 14.655,
+  "seed": 1000000000,
+  "meme_prob": 0.09,
+  "run_weight": 6,
+  "seconds": 66.0
+}
